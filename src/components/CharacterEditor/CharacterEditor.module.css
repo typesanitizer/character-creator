@@ -1,3 +1,11 @@
+.perspectiveDecoration {
+  position: fixed;
+  top: 60%;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  height: 100%;
+}
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
@@ -7,6 +15,7 @@
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  isolation: isolate;
 }
 
 .header {
